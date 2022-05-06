@@ -6,6 +6,6 @@ import org.springframework.boot.runApplication
 @SpringBootApplication
 class HistoricalEnigmaApplication
 
-fun main(args: Array<String>) {
-	runApplication<HistoricalEnigmaApplication>(*args)
+fun main() {
+	runApplication<HistoricalEnigmaApplication>()
 }
