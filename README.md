@@ -72,3 +72,11 @@ License
 
 This project is released under the MIT License.
 Feel free to explore, use, modify, and contribute to the project
+
+---
+
+## 🤝 Let's Connect!
+
+If you enjoyed this project or would like to collaborate, feel free to connect with me on www.linkedin.com/in/mehdi-shojaeirad-3839321b6
+
+
