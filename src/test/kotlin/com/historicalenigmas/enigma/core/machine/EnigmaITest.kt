@@ -1,5 +1,6 @@
-package com.historicalenigmas.enigma.core.machin
+package com.historicalenigmas.enigma.core.machine
 
+import com.historicalenigmas.enigma.core.machine.EnigmaI
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertThrows
 import org.junit.jupiter.api.Test

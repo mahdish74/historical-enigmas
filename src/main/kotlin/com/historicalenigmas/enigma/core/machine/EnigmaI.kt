@@ -1,4 +1,4 @@
-package com.historicalenigmas.enigma.core.machin
+package com.historicalenigmas.enigma.core.machine
 
 import java.util.*
 
