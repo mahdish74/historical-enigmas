@@ -2,10 +2,13 @@ package com.historicalenigmas.enigma.core.machine
 
 import java.util.*
 
+
 class EnigmaI {
     fun enCode(input: String): String {
         if(!input.matches("([A-Za-z-]+)".toRegex()))
             throw IllegalArgumentException()
+        val plugboard = Plugboard()
+        plugboard.swap(input)
 
         val normalList: MutableList<String> = arrayListOf()
         val rotorIList: MutableList<String> = arrayListOf()
@@ -44,6 +47,7 @@ class EnigmaI {
             outPut += change7
 
         }
-        return outPut
+
+        return plugboard.swap(input)
     }
 }
