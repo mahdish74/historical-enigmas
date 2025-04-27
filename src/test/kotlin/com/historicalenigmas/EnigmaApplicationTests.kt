@@ -84,4 +84,16 @@ class EnigmaApplicationTests {
 		assertEquals(1, secondEncoding.length)
 	}
 
+	@Test
+	fun `encode should handle hyphens correctly`() {
+		val input = "HI-THERE"
+		val encoded = enigma.enCode(input)
+
+		val hyphensInInput = input.count { it == '-' }
+		val hyphensInOutput = encoded.count { it == '-' }
+		assertEquals(hyphensInInput, hyphensInOutput)
+
+		assertTrue(encoded.replace("-", "").matches(Regex("^[A-Z]+$")))
+	}
+
 }
