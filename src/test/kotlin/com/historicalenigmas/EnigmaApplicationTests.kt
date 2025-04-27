@@ -65,7 +65,7 @@ class EnigmaApplicationTests {
 		val input = "SECRET"
 		val encoded = enigma.enCode(input)
 		val reEncoded = enigma.enCode(encoded)
-		assertEquals(input.uppercase(), reEncoded) // چون کدتو input.uppercase() میکنه
+		assertEquals(input.uppercase(), reEncoded)
 	}
 
 	@Test
