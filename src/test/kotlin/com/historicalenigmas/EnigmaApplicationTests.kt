@@ -96,4 +96,16 @@ class EnigmaApplicationTests {
 		assertTrue(encoded.replace("-", "").matches(Regex("^[A-Z]+$")))
 	}
 
+	@Test
+	fun `encode should return different output for simple input`() {
+		val input = "HELLO"
+		val encoded = enigma.enCode(input)
+
+		// Output must not be the same as input
+		assertNotEquals(input, encoded)
+
+		// Output should only contain uppercase letters and hyphens
+		assertTrue(encoded.matches(Regex("^[A-Z-]+$")))
+	}
+
 }
