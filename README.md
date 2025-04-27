@@ -3,6 +3,16 @@
 
 ![Build Status](https://github.com/mahdish74/historical-enigmas/actions/workflows/maven.yml/badge.svg)
 
+![License](https://img.shields.io/github/license/mahdish74/historical-enigmas)
+
+![Last Commit](https://img.shields.io/github/last-commit/mahdish74/historical-enigmas)
+
+![Issues](https://img.shields.io/github/issues/mahdish74/historical-enigmas)
+
+![Language](https://img.shields.io/github/languages/top/mahdish74/historical-enigmas)
+
+
+
 An API-based Java Enterprise (JEE) simulation of the historical Enigma machine, inspired by the movie *The Imitation Game*.
 
 After watching *The Imitation Game*, I was deeply inspired by the incredible story of Alan Turing and the pivotal role of the Enigma machine during World War II.  
