@@ -1,5 +1,7 @@
 # Historical Enigmas
 
+![Build Status](https://github.com/mahdish74/historical-enigmas/actions/workflows/maven.yml/badge.svg)
+
 An API-based Java Enterprise (JEE) simulation of the historical Enigma machine, inspired by the movie *The Imitation Game*.
 
 After watching *The Imitation Game*, I was deeply inspired by the incredible story of Alan Turing and the pivotal role of the Enigma machine during World War II.  
